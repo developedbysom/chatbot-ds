@@ -1,0 +1,21 @@
+{
+  "name": "chatbot-ds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "node-persist": "^3.1.0",
+    "request": "^2.88.2",
+    "sapcai": "^4.1.0",
+    "urlsearchparams": "^0.1.1"
+  }
+}
