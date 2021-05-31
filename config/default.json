@@ -1,0 +1,8 @@
+{
+  "auth_url": "https://sapcai-community.authentication.eu10.hana.ondemand.com/oauth/token",
+  "client_id": "sb-5876922e-68a0-4dfc-b42d-ecb1c3617a35-CLONE-DT!b40741|cai-production!b20881",
+  "client_secret": "aJI6Rg+67vMm1TN6dVLiyuk0D4I=",
+  "dev_token": "23faebbfff21a04e968b93d44ce8dbd6",
+  "bot_api": "https://api.cai.tools.sap/build/v1/dialog",
+  "northwind_api": "https://services.odata.org/V2/Northwind/Northwind.svc/Products"
+}

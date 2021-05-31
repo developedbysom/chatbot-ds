@@ -1,15 +1,13 @@
-// const urlsearchparams = require("urlsearchparams");
 const nodefetch = require("node-fetch");
 const localStorage = require("node-persist");
+const config = require("config");
 
 async function sapcaiToken() {
-  const auth_url =
-    "https://sapcai-community.authentication.eu10.hana.ondemand.com/oauth/token";
-  const client_id =
-    "sb-5876922e-68a0-4dfc-b42d-ecb1c3617a35-CLONE-DT!b40741|cai-production!b20881";
-  const clientSecret = "aJI6Rg+67vMm1TN6dVLiyuk0D4I=";
-  const params = new URLSearchParams();
+  const auth_url = config.get("auth_url");
+  const client_id = config.get("client_id");
+  const clientSecret = config.get("client_secret");
 
+  const params = new URLSearchParams();
   params.append("grant_type", "client_credentials");
   params.append("client_id", client_id);
   params.append("client_secret", clientSecret);
